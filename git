@@ -1,0 +1,67 @@
+Git is a Distributed version control system or software tool used for source 
+code management in software development, developed by Linus Torvalds in 2005 
+who developed LINUX, designed to track changes in the source code, enabling 
+multiple developers to work together on non-linear development and revert back 
+to previous versions for every small to very large projects with speed and 
+efficiency.
+
+With Git each developer will have an entire copy of the code on their local 
+repository along the history of the commits made and also the source code can
+be tracked by other developers by creating a connection between multiple 
+developers.
+
+Git was originally developed as a command line tool, it provides a command line 
+interface with which we can control the system. To work with it we need to 
+understand the workflow and different commands to execute the workflow.
+
+P.S. We can track any file with git .java, .py, .js, .txt, .xlsx, .jpg, .png etc.,
+
+Below Git Commands will help you to understand the work flow and keep 
+track of your files.
+
+We need to go to the root of the directory/folder for which we need to create 
+a repository or initialize to git, you may use the below basic command to get to
+root folder or to move to specific folder.
+
+===================================================================================
+
+$ pwd                               -   To know the current directory you are in.
+
+$ cd or $ cd ~                      -   To navigate to your home directory
+
+$ cd D:                             -   To navigate to D directory
+
+$ cd folder_name/folder_name/       -   To navigate to specific folder
+ 
+$ cd ..                             -   To navigate to previous folder
+
+$ cd ../..                          -   TO navigate to two previous folder
+
+================================================================================
+1. $ git init
+
+This command turns your current folder into git repository and creates a .git folder
+inside your current folder indicating that this will be a git repository.
+
+Once you use this command it will respond you back with,
+Initialized empty Git repository in /directory_name/folder_name/.git/
+
+P.S. .git folder will have git internals and project meta data, by default it will
+be hidden.
+
+================================================================================
+2. $ ls -a 
+
+You can see the number of available folders in your current folder along with 
+the hidden fields.
+
+P.S. "$ ls" - this command is used to display only non-hidden fields.
+
+NOTE: This will only initialize a git repository in your working folder but not 
+start tracking your files yet, we have to add files to let git start tracking our
+files, though we can see the files which are tracked and which are not.
+
+================================================================================
+3. $ git status 
+
+You can see the list of untracked files in your working folder.                                          

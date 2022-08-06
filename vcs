@@ -1,0 +1,54 @@
+Version control system is tool/software which is used to track the changes made 
+to file or set of files. It will maintain all the changes made to file and 
+also provides a flexibility to revert back to previous changes. It is mainly used
+in software application development to keep track of changes made to the source
+code and also to revert back to previous version if there is glitch.
+ 
+Basically we have two types of version control system.
+    1. Centralized version control system(CVCS).
+    2. Distributed version control system(DVCS).
+
+------> Centralized Version Control System(CBCS).
+
+In Centralized version control system there will be a server and client,
+the server is the master repository which contains all versions source code of 
+the project and if client/developers want to work on that project he needs to
+take the project on his local system and make change accordingly and need to 
+commit the changes to the server.Committing a change simply means merging your 
+own code into the master repository.
+
+In this system all the new version of the source code will be pushed directly
+to the master repository in the server. There will be just one repository and 
+that will contain all the history or version of the code and different branches 
+of the code.
+
+So, Basically you will get the code from central system which contains the 
+changes made by other developers, merge all your new code to updated code and 
+then commit the code to master repository. It has a single level workflow and
+developers won't have copies of their own. Any changes made to the source code 
+were unknown to the other developers and there won't be any communication 
+between developers
+
+Subversion(SVN) or Concurrent Version System(CVS) are Centralized version systems.
+
+
+------> Distributed version control system(DVCS).
+
+In Distributed version control system each developer contains the full copy of
+the entire project and the full history of the commits made. Here we never rely on
+central server and also the developer will have the entire backup of updated code
+on his local system.
+
+This system will provide you a local server wherein you can work offline and 
+independently without connecting to the central repository and without internet.
+So all the changes you have made will be in your own server or local repository.
+
+In DVCS you don't need to communicate with the central server or master repository,
+for each and every command rather you can do everything locally which gives you 
+the benefit to work smoothy and in fast pace.
+
+The main advantage of this system is that, you will have the backup for your 
+entire code in your local repository whenever the central server crashes.
+
+Git, Mercurial, Bazaar etc., are Distributed version control systems.
+
