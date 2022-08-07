@@ -12,3 +12,5 @@ changes to staging area won't get overridden.
 
 Now I am not saving my file to staging area to see will it override the 
 unsaved changes. 
+
+Now I am making changes to see how "$ git fetch origin" and "$ git checkout" works together.
