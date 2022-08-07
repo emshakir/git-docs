@@ -141,7 +141,7 @@ the location for our remote repository.
 
 $ git remote add <alias> <repo url>
 
-- <alias> is a name which we can be provided to our url, so thatrather typing the 
+- <alias> is a name which we can be provided to our url, so that rather typing the 
 whole url we can make use of aliased name, we can have any thing as an alias, 
 in my case it is origin which is the standard practice.
 
@@ -202,7 +202,10 @@ NOTE: Once you run this command it will also initialize the git command, i.e., i
       all the meta data and history of all the commits made by any other developers.
 
 ================================================================================
-12. $ git pull <provided alias name @ point#6> -> To get the upated files to our
+12 $ git push <provided alias name @ point#6> -> To Push the committed data from
+                Local repository to remote repository.
+
+12.1 $ git pull <provided alias name @ point#6> -> To get the updated files to our
                 local repository changed by any other developer.
 
 NOTE: This command will directly add all the code changes made by other developers
@@ -260,8 +263,11 @@ NOTE: Whenever you are having any unstaged changes in your working directory and
       you tend to change the branch, all the changes will be moved to new branch
       when you perform checkout command.
 
-15.3 $ git branch -b "new branch name" -> to create a new branch and switch the 
-                                branch to newly created branch.
+15.3 $ git checkout -b "new branch name" 
+
+The above example simultaneously creates and checks out ?new-branch?. 
+The -b option is a convenience flag that tells Git to run git branch before 
+running git checkout ?new-branch?.
 
 P.S. With this command if you make any changes in other existing branch and 
      perform the command it will cut all those changes and add into your new
