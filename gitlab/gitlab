@@ -1,2 +1,6 @@
 
 branch testing using the file git lab,
+
+Added the line on remote server to check the difference between "$ git pull origin" 
+and "$ git fetch origin" then "$ git checkout" to other branch to make sure that our unsaved
+changes to staging area won't get overridded. 
